@@ -1,0 +1,20 @@
+/*设置body样式*/
+body {
+  background: #f7f8f8;
+  font-size: 12px;
+  font-family: Arial, Verdana,"\5b8b\4f53";
+  color: #444;
+  background:#fff;
+  word-break: break-all;
+  word-wrap: break-word;
+  display: block;
+  margin: 8px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td, p {
+  margin: 0;
+  padding: 0;
+}
+.w{
+  background: #f7f8f8;
+}
+

@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ color:#444;}
+.w{ background: #f7f8f8;}
+a:hover{ color: #008842; }
+.logo a{ width: 195px; height: 50px; background:url(../img/logo.png) no-repeat;}
+
+/* 按钮 */
+.btn-green{background: #008842;}
+.btn-green:hover{background: #09964e;}
+.btn-white {background: #f9fff5;}
+.btn-white:hover{background: #ffffff;}
+.btn-gn{ color:#fff; border:1px solid #008842; background:#008842;}
+.btn-gn:hover{color:#fff; border:1px solid #09964e; background:#09964e;}
+.btn-wgn{ color:#008842; border:1px solid #008842; background:#fff;}
+.btn-wgn:hover{ color:#09964e; border:1px solid #09964e;}
+.btn-org{ color:#fff; border:1px solid #e8380d; background:#e8380d;}
+.btn-org:hover{color:#fff;  border:1px solid #f15630; background:#f15630;}
+.btn-worg{ color:#e8380d; border:1px solid #e8380d; background:#fff;}
+.btn-worg:hover{ color:#f15630; border:1px solid #f15630}
+.btn-green-l, .btn-green-s{background: #008842;}
+.btn-green-l:hover, .btn-green-s:hover{background:#09964e;}
+.btn-white{ color:#008842; border-color:#008842; background:#fff;}
+.btn-white:hover{ color:#09964e; border-color:#09964e;}
+.safe-info .btn-green{background: #008842;}
+.safe-info .btn-green:hover{background: #09964e;}
+.safe-info .btn-white{ color:#008842; border-color:#008842; background:#fff;}
+.safe-info .btn-white:hover{ color:#09964e; border-color:#09964e;}
+.r-invoice .invoice-item .btn-save{color:#fff; border-color:#008842; background:#008842;}
+.btn-yd:hover{border-color:#319ec3; color: #319ec3;}
+.btn-orange:hover{border-color:#f14b00;color: #f14b00;}
+.btn-dhtz:hover{ color:#5aaa16; border-color:#5aaa16;}
+.btn-hqyzm{ color:#008842;}
+
+/* 字色 */
+/*红*/.crumbs a.on, .myyg .user-info .acco-info li .num, .myyg .user-info .u-safe .safe-rank b, .addressList .btns a:hover, .orange, .recharge .price, .r-other .confirmation b{ color:#e8380d;}
+/*绿*/.sub .menu dd a:hover, .myyg .user-info .info-m .u-name .modify, .myyg .user-info .u-safe a, .myyg .table-title a, .sub .menu li.on a,.new-coupon li .mz .fl, .myyg-table tbody tr td a, .bd-promos, .green, .addressList .btns .edit:hover, .addrs b, .recipe .tips a, .m-step, .returns .CustomerService,.recharge .complete dt,.recharge h1, .r-payment .selectother:hover,.r-receive .receive-list .receive-more,.safe-info .si-user .edit, .new-coupon a:hover .fr p b, .safe .complete, .return-detail .r-steps strong b, .returns .r-submitted h4, .PickUpCard .c dt, .PickUpCard .c a, .PickUpCard-list .cur .btn-gn,.btn-edit,.order-process .o-t-all,.order-detail .order-state dt b,.order_complete dt,.order_complete .date,.p-login .reg a, .cart-none a,.myyb .yb a:hover,.coupon-table tbody tr td a,.order-none a,p.tips a,.btn-yzm,.nav-tabs .active a, .nav-tabs .active a:hover { color:#008842;}
+
+/* 背景色 */
+/*浅*/.myyg .table-title, .myorder .order-list th div, .returns .list-body th div{ background-color:#e8f1ea;}
+.r-other .confirmation,.return-info .r-list th,.return-info .r-profile .edit-info,.comment-team dt{ background-color:#f8fffc;}
+.recharge .complete dt, .returns .r-submitted,.PickUpCard .c dt,.order_complete dt,.register-succ{ background-color:#fdfbf6;}
+/*深*/.bd-title, .active .m-step{background-color: #008842;}
+
+/* 边框 */
+/*绿*/.GC .QuickView .qv-table, .m-step, .r-other .confirmation, .return-detail .r-steps,.return-info .r-profile .edit-info, .PickUpCard-list .cur, .PickUpCard-list .hover, .PickUpCard .p-title,.order-detail .order-state,.order-process, .order-info,.order-total{ border-color:#008842;}
+.myyg .user-info .acco-info li a:hover, .main .title, .paging .paging-num a:hover, .paging .paging-num .this,.myyg-tab .on, .main .subtitle b, .edit,.safe-info .si-user a,.PickUpCard .c .edit{ color:#008842; border-color:#008842;}
+
+/* 页头 */
+.header{ border:none; background: #e0e0e0;}
+.header .wrap {padding:15px 0 5px 0;}
+.search .search-btn {  height: 28px; background: url(../img/search-btn.jpg) no-repeat !important;}
+.search .search-input{ height: 26px; line-height: 26px; padding: 0 10px; border: 1px solid #008842; background: #e0e0e0;}
+.search .search-keywords a.hot{ color:#008842 !important;}
+.shopping-btn{ color:#008842; border: 1px solid #008842; background:#fff;}
+
+/* 页尾 */
+
+.sitemap dl dt i{ background-image:url(../img/footer-icon.png);}
+
+/* 弹框 */
+.popout{ display:none;position:fixed; z-index:200000; left:0; top:0;}/*弹出框不显示*/
+.popout-con{ border-color:#008842;}
+.popout-con .title{ background-color:#008842;}
+.popout-con .btnbox a{ border-color:#008842;}
+.popout-con .btnbox a.confirm{ color:#fff; background-color:#008842;}
+.popout-con .btnbox a.confirm:hover{ background-color:#09964e ;}
+.popout-con h1,.popout-con .btnbox a.cancel{ color:#008842;}
+.modal{border-color:#008842; background-color:#f8fffc;}
+.modal-header h3{ color:#008842;border-color:#008842;}
+.modal .controls .btn-save{ border-color:#008842;background: #008842;}
+.modal .controls .btn-save:hover{ border-color:#09964e; background: #09964e;}
+
+/*个人中心*/
+.myyg .user-info .acco-info li i{background-image: url(../img/user-info.png);}
+.myyg .user-info .info-m .u-level .vip .grade-line i{ background:#008842;}
+.new-coupon li .mj, .new-coupon li .mz{background-image:url(../img/coupon-bg.png);}
+.recharge .complete i{background-image:url(../img/returns-icon.png);}
+.si-password i, .si-email i, .si-phone i{background-image: url(../img/bg_safe.png);}
+.safe-info .si-user .edit i{background-image:url(../img/icon_edit.png);}
+.safe .complete i{background-image: url(../img/returns-icon.png);}
+.sp-step, .sm-step{background-image:url(../img/step_safe.png);}
+.recipes-upload dd .steps_num b{ color:#008842; border-color:#008842;}
+.recipes-upload dd .first b{ color:#fff; background:#008842;}
+.returns .r-submitted .icon{background-image: url(../img/returns-icon.png);}
+.returns .CustomerService i{background-image: url(../img/customer-service.png);}
+.PickUpCard{ margin-top:20px !important;}
+.PickUpCard .c i{background-image: url(../img/returns-icon.png);}
+.PickUpCard .c .edit i{background-image:url(../img/icon_edit.png);}
+.PickUpCard-list li i{background-image:url(../img/PickUpCard.png);}
+.PickUpCard .p-title .t{background-image:url(../img/PickUpCard.png);}
+.r-receive .receive-list .selected, .r-invoice .invoice-item .selected,.r-receive .receive-list .hover label, .r-invoice .invoice-item .hover label,.o-receive label.selected,.o-receive li:hover label,.order .table td .selected,.modal .table td.selected,.o-pay label.selected, .o-invoice-item label.selected, .o-invoice-item label:hover{ border-color:#008842; background-color:#ebf8f2;}
+.r-receive .receive-list li .btn-setdefault, .r-receive .receive-list li .btn-edit, .r-receive .receive-list li .btn-del, .r-invoice .invoice-item li .btn-edit, .r-invoice .invoice-item li .btn-del,.o-invoice-item label .btn-edit, .o-invoice-item label .btn-del{ color:#008842;}
+.r-receive .receive-list li b, .r-invoice .invoice-item li b,.order h2, .order i, .modal-header h3 i, .order b, .modal b, .order i, .o-voucher i{background-image:url(../Content/img/themes/bg_order.png);}
+.o-receive li:hover strong,.o-receive .btn-setdefault, .o-receive .btn-edit, .o-receive .btn-del,.order h3,.order .link,.order .table td .selected,.modal .table td a,.o-payment .edit, .o-payment .selectother,.o-payment label strong{ color:#008842;}
+.steps { margin-right: 75px;  padding-top: 5px;}
+.steps li b{background-image:url(../img/order-step.png);}
+.steps .on i{border-color: #008842; background: #008842;}
+.steps li span{ top:-6px; right:-162px; text-align:left;}
+.steps .on span{ color:#008842;}
+.comment_score .stars b{background-image:url(../img/comment_stars.gif);}
+.comment-team .stars .stars-bg span,.comment-team .stars .stars-bg{background-image:url(../img/stars.gif);}
+.order-detail .order-steps li b,.order-detail .order-steps li i, .return-detail .r-steps li b, .return-detail .r-steps li i{background-image:url(../Content/img/themes/order-steps.png);}
+.order_complete i{background-image: url(../img/returns-icon.png);}
+.mylist i{background-image: url(../img/btn_icon.png);}
+.loading i{background-image: url(../img/loading.gif);}
+
+/*登录注册*/
+.p-login .title{ color:#008842; border-color:#008842; background: #f2fcf7;}
+.p-login .login-btn a{background-color: #008842;}
+.register-succ i,.login i, .register i, .forget-pwd i, .f-step{background-image:url(../img/bg_login.png);}
+.register-succ{ border-top-color:#008842;}
+.logo .h-tit{  color:#008842; left: 240px;}
+.register-succ a{background-color:#e8380d;}
+.register-succ a:hover{background-color:#f15630;}
+.forget-pwd{ margin:0; padding-top:60px; border:none;}
+.f-step{ margin-top:0;}
+.btn-white-s{ color:#008842; border:1px solid #008842; background:#fff;}
+.btn-white-s:hover{ color:#09964e; border:1px solid #09964e;}
+.login{ margin:0; border:none;}
+.register .nav-tabs .active a, .register .nav-tabs .active a:hover{background-image:url(../img/tab_bg_active.jpg);}
+.register-succ{ background:#fff;}
+
+/* CSS Document */
+.logo { position: relative; }
+.gray { color: #878787; }
+.green { color: #65b42c; }
+input[type=text]:focus, input[type=password]:focus { outline: 3px solid #b1d6ff; }
+.login { background-color: #fff; /*border-top: 1px solid #65b42c; border-bottom: 1px solid #65b42c; margin-top: 20px; */padding-top: 30px; }
+.login .fl img { margin-top: 20px; }
+.login .fr { padding-right: 105px; }
+.login-main { width: 308px; padding: 30px 20px 20px; background-color: #fff; border: 1px solid #e3e6e0; }
+.login-main .green { text-decoration: underline; }
+.login-main p { width: 100%; }
+.login p { margin-bottom: 20px; font: 12px Arial, "SimSun"; color: #878787; position: relative; overflow: hidden; }
+.login p strong { color: #262626; font: 18px/1 "Microsoft YaHei"; }
+.login p span { position: absolute; right: 0; top:0; }
+.login .input { padding-left: 50px; width: 254px; background-image: url(../img/bg_input.png); background-repeat: no-repeat; }
+.input-phone { background-position: 0 -120px; }
+.input-key { background-position: 0 -180px; }
+input[type=checkbox] { margin-right: 9px; height: 14px; width: 14px; vertical-align: -1px; }
+.input-phone-icon, .input-key-icon { position: absolute; left: 1px;  top: 1px !important; *top:2px !important;_top: 3px !important; width: 40px; height: 38px; background-image: url(../img/bg_input.png); background-repeat: no-repeat; }
+.input-phone-icon { background-position: 0 -120px; }
+.input-key-icon { background-position: 0 -180px; }
+i { display: inline-block;  *display: inline; *zoom: 1; width: 88px; height: 20px; background-image: url(../img/bg_login.png); background-repeat: no-repeat; margin-right: 20px; }
+.qq i { background-position: -60px -200px; }
+.sina i { background-position: -160px -200px; }
+.ay i { background-position: -260px -200px; width: 57px; margin-right: 0; }
+.msg-wrap { height: auto !important; margin: 2px 0px 5px; min-height: 31px; }
+.msg-error { position: relative; background: #FFEBEB none repeat scroll 0% 0%; border: 1px solid #E4393C; padding: 3px 10px 3px 40px; line-height: 18px; min-height: 18px; color: #E4393C; }
+
+/*微博登录*/
+.login-weibo { width: 900px; margin: 0 auto; padding-bottom: 20px; }
+.login-weibo p { line-height: 28px; font-size: 14px; width: 266px; margin: 0 auto; padding-bottom: 20px; font-size: 14px; color: #333; }
+.login-weibo dl { padding: 30px 0; width: 350px; margin: 0 auto; }
+.login-weibo dt { color: #333; font-size: 14px; margin-bottom: 30px; padding-left: 45px; font-weight: bold; }
+.login-weibo dd { margin-top: 20px; }
+.login-weibo dd span { display: inline-block; width: 95px; font-size: 14px; text-align: right; margin-right: 20px; }
+.login-weibo dd input { width: 230px; height: 25px; border: 1px solid #c1c1c1; }
+.login-weibo dd .btn-green-l { width: 120px; height: 30px; font-size: 16px; text-align: center; line-height: 30px; }
+.login-weibo .line { width: 100%; float: left; border-top: 1px solid #ccc; }
+
+.popout-code{ position:fixed; top:50%; left:50%; width:410px; height:250px; margin:-170px 0 0 -250px; padding:45px; border:1px solid #c7c7c7; background:#fff; z-index:50;}
+.popout-code .close{ position:absolute; top:0; right:0; width:41px; height:41px; background:url("http://img05.yiguoimg.com/e/web/161205/01854/145109/cha.png") no-repeat center center;}
+.popout-code p{ padding: 0 40px; line-height:24px; font-size:14px; color:#565656;}
+.popout-code .pcode{ margin:35px 0 0; text-align:center;}
+/*------登录、注册、找回密码------*/
+.logo .h-tit{ font:28px/1 Microsoft YaHei;  position:absolute;  top:6px; white-space:nowrap}
+.login i, .register i, .forget-pwd i, .f-step{ background-image:url(../img/bg_login.png); background-repeat:no-repeat;}
+.register p, .forget-pwd p{ margin-bottom:29px; font:14px Arial,"Microsoft YaHei";}
+.login .input, .register .input, .forget-pwd .input{border:1px solid #c1c1c1;background-color:#fff;height:38px;vertical-align:middle;/*padding-left:14px;width:290px;*/font:14px/38px "Microsoft YaHei";}
+.register .input{
+    padding-left:14px;
+    width:290px;
+}
+.login .input-yzm, .register .input-yzm{width:147px;}
+.btn-yzm{ display:inline-block;*display:inline;*zoom:1;width:121px; height:38px; text-align:center; line-height:38px; background-color:#f7f7f7; border:1px solid #c1c1c1; color:#64b22a; margin-right:20px;}
+.pass-succ i,.pass-tip i,.pass-error i{ display:inline-block;*display:inline;*zoom:1; width:17px; height:17px; vertical-align:middle; margin-right:9px;}
+.pass-succ i{ background-position:0 -200px;}
+.pass-tip i{ background-position:-20px -200px;}
+.pass-error i{ background-position:-40px -200px;}
+.pass-error{ color:#f60000}
+.btn-green-l, .btn-green-s, .btn-orange-s{display:inline-block;*display:inline;*zoom:1;height:50px;text-align:center;color:#fff;font:18px/50px "Microsoft YaHei";}
+.btn-green-l, .btn-green-s{background-color:#65b42c;}
+.btn-orange-s{width:170px;background-color:#ef760a;}
+.btn-green-l{ width:306px;}
+.btn-green-s{ width:170px;}
+.btn-green-l:hover, .btn-green-s:hover{color:#fff !important;}
+.btn-orange-s:hover{background-color:#ff7f00; color:#fff;}
+.forget-pwd{ height:558px; background-color:#fff; border:1px solid #c4dfb1; margin-top:50px;}
+.f-step{width:1200px; height:48px; text-indent:-9999em; margin:60px 0;}
+.f-step1{background-position:0 0;}
+.f-step2{background-position:0 -48px;}
+.f-step3{background-position:0 -96px;}
+.f-step4{background-position:0 -144px;}
+
+.footer_service{ background:#e0e0e0; margin-top:50px; padding:30px 0;}
+.footer_service li{ float:left; width:190px; height:42px; margin-left:55px; _margin-left:44px; padding-left:55px; background:url(..img/footer_service_icon.png) no-repeat left top;}
+.footer_service .s1{ background-position:0 0;}
+.footer_service .s2{ background-position:0 -42px;}
+.footer_service .s3{ background-position:0 -84px;}
+.footer_service .s4{ background-position:0 -126px;}
+.footer_service li b{ display:block; padding-left:15px; color:#007f4d; font: normal 18px/25px "Microsoft YaHei"; border-left:1px solid #a6a6a6;}
+.footer_service li span{ display:block; padding-left:15px; border-left:1px solid #a6a6a6}
+
+.footer{zoom: 1; clear: both; position: relative; border-top: 2px solid #e0e0e0; padding-bottom:20px; border-top:1px solid #e0e0e0}
+.footer .wrap{ margin:50px auto 0;}
+.footer dl{width:190px; float:left; margin-left:50px; display:inline;}
+.footer dl dt{ height:23px; line-height:23px; background:url(../Content/img/footer_icon.png) no-repeat; font-size:14px; text-indent:40px;}
+.footer .col1 dt{background-position:0 0;}
+.footer .col2 dt{background-position:0 -23px;}
+.footer .col3 dt{background-position:0 -46px;}
+.footer .col4 dt{background-position:0 -69px;}
+.footer .col5 dt{background-position:0 -92px;}
+.footer dl dd{border-left:1px dashed #A8A8A8; padding-left:20px; height:110px; min-height:110px; margin:15px 0 0 13px;}
+.footer dl dd a{color:#575556; line-height:22px;}
+.footer dl dd a:hover{text-decoration:underline; color:#008842;}
+.footer .service{clear:both; text-align:center; padding:60px 0 20px; color:#008842; font-size:14px;}
+.footer .service span{ display:inline-block; padding:0 10px;}
+.footer .copyright{clear:both; color:#717171; text-align:center; line-height:22px; }
+.footer .copyright a{color:#717171;}
+.footer .copyright a:hover{color:#008842;}
+.footer .authentication a{ display:inline-block; position: relative; height:45px; margin:0 10px; zoom: 1;}
+.footer .authentication span{font-size: 12px; color: #001b75; padding: 0; margin: 0; text-decoration: none; top:25px; left: 50px; position: absolute; cursor: pointer;}
+.footer .authentication img{ height:47px;}
+
